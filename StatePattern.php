@@ -109,7 +109,7 @@ class HourSetupState {
 	}
 	
 	public function getSelectedValue(): int {
-		return $this->hour === 61 ? 1 : $this->hour;
+		return $this->hour === 25 ? 1 : $this->hour;
 	}	
 }
 
